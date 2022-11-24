@@ -49,4 +49,57 @@ Before developers get to work designing websites, it's important they have ideal
 
 4. What Elements does a “typical” website include?
 
-![Typical HTML Website](/home/jmart454/projects/courses/201/readingnotes201d93/201/html_basic_outline.jpg)
+![Typical HTML Website](html_basic_outline.jpg)
+
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+
+5. How does metadata influence Search Engine Optimization?
+    Meta data descriptions includes keywords relating to the content of your page useful as it has the potential to make your page appear higher in relevant searches.
+
+6. How is the <meta> HTML tag used when specifying metadata?
+
+<meta name="singer" content="Luther Vandross" />
+
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+
+1. What is the first step to designing a Website?
+
+    Project ideation and is the necessary first step to designing a website.  You should answer before anything else: 1) What exactly do I want to accomplish? 2) How will a website help me reach my goals? 3) What needs to be done, and in what order, to reach my goals?
+
+2. What is the most important question to answer when designing a Website?
+
+    What exactly do I want to accomplish?
+
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+
+1.	Why should you use an <h1> element over a <span> element to display a top-level heading?
+
+    Using <span> will render it to look like a top level heading, but it’ll lack semantic value, and not get any extra benefits
+
+2.	What are the benefits of using semantic tags in our HTML?
+
+    Search engines will consider its contents as important keywords to influence the page's search rankings 
+
+    Screen readers can use it as a signpost to help visually impaired users navigate a page
+
+    Finding blocks of meaningful code is significantly easier than searching through endless divs with or without 
+
+    semantic or namespaced classes
+
+    Suggests to the developer the type of data that will be populated
+
+    Semantic naming mirrors proper custom element/component naming
+
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+
+1.	Describe 2 things that require JavaScript in the Browser?
+
+    Controlling media: the <video> and <audio> elements allow us to embed video and audio into web pages. 
+    
+    Animating images: done by programming gradual changes in an element's style.
+
+How can you add JavaScript to an HTML document?
+
+Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.  They are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement.
+
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)

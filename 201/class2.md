@@ -1,6 +1,6 @@
 # ***Overview***
 
-Before developers get to work designing websites, it's important they have ideal computer set ups, understand the basics, and apply solid programming fundamentals.
+Before developers get to work designing websites, it's important they have ideal computer set ups, understand the basics, and apply solid programming fundamentals.  ***Understanding how to structure, style and animate webpages using HTML, CSS, and Javascript helps enhance users' experiences.***
 
 # **Class 2 Assignment**
 
@@ -37,7 +37,7 @@ Before developers get to work designing websites, it's important they have ideal
     
     [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
- 6. Why should we avoid using inline styles?
+6. Why should we avoid using inline styles?
 
     We should avoid inline CSS styling for two reasons: 1) it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page, and 2) inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.
     
@@ -62,62 +62,40 @@ h2 {
 color: 
 padding:  
 
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+ [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
-3. What is the Difference between \<article> and \<section> element tags?
+8. What data type is a sequence of text enclosed in single quote marks?
+string
 
-    An \<article> tag encloses a block of related content that makes sense on its own without the rest of the page.  A \<section> tag is similar to \<article> tag, but it is more for grouping together a single part of the page that constitutes one single piece of functionality or a theme.
+9. List 4 types of JavaScript operators.
 
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+Addition
+Subtraction, Multiplication, Division
+Assignment
+Strict equality
 
-4. What Elements does a “typical” website include?
+10. Describe a real world Problem you could solve with a Function.
 
-![Typical HTML Website](html_basic_outline.jpg)
+Passing 201 = studying hard and completing all assignments on time
 
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
-5. How does metadata influence Search Engine Optimization?
-    Meta data descriptions includes keywords relating to the content of your page useful as it has the potential to make your page appear higher in relevant searches.
+11. An if statement checks a ***condtion*** and if it evaluates to ***true***, then the code block will execute.
 
-6. How is the <meta> HTML tag used when specifying metadata?
+12. What is the use of an else if?
 
-<meta name="singer" content="Luther Vandross" />
+Chain on extra choices/outcomes to your if...else statements
 
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+13. List 3 different types of comparison operators.
 
-1. What is the first step to designing a Website?
+Arithmetic, increment/ decrement, and assignment
 
-    Project ideation and is the necessary first step to designing a website.  You should answer before anything else: 1) What exactly do I want to accomplish? 2) How will a website help me reach my goals? 3) What needs to be done, and in what order, to reach my goals?
+[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#comparison_operators)
 
-2. What is the most important question to answer when designing a Website?
+14. What is the difference between the logical operator && and ||?
 
-    What exactly do I want to accomplish?
+They are logical operators which represent the AND and OR operations respectively.  
 
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
-
-1.	Why should you use an \<h1> element over a <span> element to display a top-level heading?
-
-    Using \<span> will render it to look like a top level heading, but it’ll lack semantic value, and not get any extra benefits
-
-2.	What are the benefits of using semantic tags in our HTML?
-
-    Search engines will consider its contents as important keywords to influence the page's search rankings
-    Screen readers can use it as a signpost to help visually impaired users navigate a page
-    Finding blocks of meaningful code is significantly easier than searching through endless divs with or without
-    semantic or namespaced classes
-    Suggests to the developer the type of data that will be populated
-    Semantic naming mirrors proper custom element/component naming
-
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
-
-1.	Describe 2 things that require JavaScript in the Browser?
-
-    Controlling media: the \<video> and \<audio> elements allow us to embed video and audio into web pages.     
-    Animating images: done by programming gradual changes in an element's style.
-
-2. How can you add JavaScript to an HTML document?
-    Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.  They are ready-made         sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement.
-
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+[mariusschulz.com](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript#:~:text=If%20applied%20to%20boolean%20values,true%20in%20all%20other%20cases)
     
 ## Things I want to know more about

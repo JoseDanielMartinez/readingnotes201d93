@@ -27,21 +27,26 @@ Before developers get to work designing websites, it's important they have ideal
 
 4. When using the \<abbr> element, what attribute must be added to provide the full expansion of the term?
 
-   A title attribute (title="") should be used to specify the element’s additional information.
+   A title attribute should be used to specify the element’s additional information.
    
    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting) 
 
-5. What is a Variable and why are they important in JavaScript?
+1. What are ways we can apply CSS to our HTML?
 
-    Variables are containers that store value. Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an image gallery.
+    CSS can be applied using external or internal stylesheets, and also by using inline styling.  '
+    
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
- [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
- 1. What is an HTML attribute?
+ 1. Why should we avoid using inline styles?
 
-    Attributes contain extra information about the element that won't appear in the content.
+    We should avoid inline CSS styling for two reasons: 1) it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page, and 2) inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.
+    
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
 
-2. Describe the Anatomy of an HTMl element.
+2. Review the block of code below and answer the following questions:
+
+
 
     The anatomy of our element is:
 

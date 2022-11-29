@@ -45,7 +45,7 @@ Before developers get to work designing websites, it's important they have ideal
 
 2. Review the block of code below and answer the following questions:
 
-![Code Block!]("C:\Users\Jmart454\Desktop\201\Read 02\Code Block.jpg")
+![Code Block!](Code Block.jpg)
 
 
 

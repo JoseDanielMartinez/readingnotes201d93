@@ -68,7 +68,7 @@ Before developers get to work designing websites, it's important they have ideal
 
 ![codeblock](codeblock.jpg)
 
-    The expression will first add the values of a and c, then add the value of b from left to right.  Since it's an addition assignment,     it only returns a number.  This returned 10.
+   The expression will first add the values of a and c, then add the value of b from left to right.  Since it's an addition assignment,     it only returns a number.  This returned 10.
 
 10. Describe a real world example of when a conditional statement should be used in a JavaScript program.
 

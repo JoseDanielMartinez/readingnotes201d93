@@ -24,35 +24,49 @@ Before developers get to work designing websites, it's important they have ideal
 
 4. Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
 
-  Margin and padding are secret service agents if CSS boxes where the President.  They push other elements away from the box as a form of protection.
+    Margin and padding are secret service agents if the content were the President.  They push other elements away from the content as a form of protection.
 
    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 5. List and describe the four parts of an HTML elements box as referred to by the box model.
 
-    CSS can be applied using external or internal stylesheets, and also by using inline styling.  '
+    Content box: The area where your content is displayed; size it using properties like inline-size and block-size or width and height.
 
-    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+    Padding box: The padding sits around the content as white space; size it using padding and related properties.
 
-6. Why should we avoid using inline styles?
+    Border box: The border box wraps the content and any padding; size it using border and related properties.
 
-    We should avoid inline CSS styling for two reasons: 1) it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page, and 2) inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand. Separating code and content makes maintenance easier for all who work on the website.
+    Margin box: The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements; size it using margin and related properties.
 
-    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
-7. Review the block of code below and answer the following questions:
+6. What data types can you store inside of an Array??
 
-![codeblock](https://github.com/JoseDanielMartinez/readingnotes201d93/blob/main/201/codeblock.jpg?raw=true)
+    Strings, numbers, objects, and even other arrays. You can also mix data types in a single array.
 
-7a. What is representing the selector?
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
-h2
+7. Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
 
-7b. Which components are the CSS declarations?
+    It's valid array however in order to access all items you'll have to seperate the items by category using const names = ['pete', 'Smith', 'Bill'] and run a for...of statement.
 
-h2 {
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
-}
+8. List five shorthand operators for assignment in javascript and describe what they do.
+
+Addition assignment (+=); adds the value of the right operand to a variable and assigns the result to the variable.
+
+Subtraction assignment (-=);  subtracts the value of the right operand from a variable and assigns the result to the variable.
+
+Multiplication assignment (*=); multiplies a variable by the value of the right operand and assigns the result to the variable.
+
+  Division assignment (/=); divides a variable by the value of the right operand and assigns the result to the variable.
+
+  [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+9. Read the code below and evaluate the last expression and explain what the result would be and why.
+
+![codeblock](codeblock.jpg)
 
 7c. Which components are considered properties?
 

@@ -68,45 +68,14 @@ Multiplication assignment (*=); multiplies a variable by the value of the right 
 
 ![codeblock](codeblock.jpg)
 
-7c. Which components are considered properties?
+The expression will first add the values of a and c, then add the value of b from left to right.  Since it's an addition assignment, it only returns a number.  This returned 10.
 
-color:
-padding:  
+10. Describe a real world example of when a conditional statement should be used in a JavaScript program.
 
- [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
+A conditional statement could be used when the developer is trying to get the user to input specific information, for example, Y/N or y/n typefaces.
 
-8. What data type is a sequence of text enclosed in single quote marks?
-string
+11. Give an example of when a Loop is useful in JavaScript.
 
-9. List 4 types of JavaScript operators.
-
-Addition
-Subtraction, Multiplication, Division
-Assignment
-Strict equality
-
-10. Describe a real world Problem you could solve with a Function.
-
-Passing 201 = studying hard and completing all assignments on time
-
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured)
-
-11. An if statement checks a ***condtion*** and if it evaluates to ***true***, then the code block will execute.
-
-12. What is the use of an else if?
-
-Chain on extra choices/outcomes to your if...else statements
-
-13. List 3 different types of comparison operators.
-
-Arithmetic, increment/ decrement, and assignment
-
-[Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#comparison_operators)
-
-14. What is the difference between the logical operator && and ||?
-
-They are logical operators which represent the AND and OR operations respectively.  
-
-[mariusschulz.com](https://mariusschulz.com/blog/the-and-and-or-operators-in-javascript#:~:text=If%20applied%20to%20boolean%20values,true%20in%20all%20other%20cases)
+Loops allow you to continually execute code multiple times until stopping conditions are met.  A loop could be used in a guessing game for instance.
 
 ## Things I want to know more about

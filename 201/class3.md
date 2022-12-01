@@ -54,13 +54,13 @@ Before developers get to work designing websites, it's important they have ideal
 
 8. List five shorthand operators for assignment in javascript and describe what they do.
 
-Addition assignment (+=); adds the value of the right operand to a variable and assigns the result to the variable.
+    Addition assignment (+=); adds the value of the right operand to a variable and assigns the result to the variable.
 
-Subtraction assignment (-=);  subtracts the value of the right operand from a variable and assigns the result to the variable.
+    Subtraction assignment (-=);  subtracts the value of the right operand from a variable and assigns the result to the variable.
 
-Multiplication assignment (*=); multiplies a variable by the value of the right operand and assigns the result to the variable.
+    Multiplication assignment (*=); multiplies a variable by the value of the right operand and assigns the result to the variable.
 
-  Division assignment (/=); divides a variable by the value of the right operand and assigns the result to the variable.
+    Division assignment (/=); divides a variable by the value of the right operand and assigns the result to the variable.
 
   [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
 

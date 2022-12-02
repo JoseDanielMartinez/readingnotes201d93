@@ -46,6 +46,10 @@ Before developers get to work designing websites, it's important they have ideal
 
 The DOM is the canvas for Javascript.  It alllows Javascript and other programming languages to modify its representation.
 
+<<<<<<< HEAD
 [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+=======
+   [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+>>>>>>> 7370989771c1632b95abaa3195a815031650732f
 
 ## Things I want to know more about

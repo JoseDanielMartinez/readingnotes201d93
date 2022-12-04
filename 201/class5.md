@@ -18,9 +18,9 @@ Before developers get to work designing websites, it's important they have ideal
 
 3. Provide an example of when the figure element would be useful in an HTML document.
 
-  Combine img tags and figure caption tags.  Adds more meaning than simply seperating the two.
-
-    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+    Combine img tags and figure caption tags.  Adds more meaning than simply seperating the two.
+    
+    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)   
 
 4. Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
 
@@ -43,10 +43,8 @@ Before developers get to work designing websites, it's important they have ideal
 7. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
 
     I'd change the body background color the entire HTML using
-
-    \*{
-      background-color: red
-    \}
+    
+      background-color: red;  
 
 8. What should you consider when choosing fonts for an HTML document?
 
@@ -65,14 +63,10 @@ Before developers get to work designing websites, it's important they have ideal
 10. Describe two ways you could add spacing around the characters displayed in an h1 element.
 
     You can use drop shadow and line height properties.
-
-    *{
-      text-shadow: 4px 4px 5px red;
-    }
-      
-    *{
-      line-height: 1.6;
-    }
+  
+      text-shadow: 4px 4px 5px red;      
+    
+      line-height: 1.6;   
 
    [Source: mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 
